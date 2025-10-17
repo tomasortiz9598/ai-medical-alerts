@@ -1,0 +1,31 @@
+{
+  "patient_name": "Luna",
+  "patient_species": "Canine",
+  "alerts": [
+    {
+      "title": "Rabies booster due",
+      "alert_type": "VACCINE_EXPIRATION",
+      "due_date": "2024-08-17"
+    },
+    {
+      "title": "Bordetella booster reminder",
+      "alert_type": "VACCINE_EXPIRATION",
+      "due_date": "2024-07-01"
+    },
+    {
+      "title": "Dental cleaning appointment",
+      "alert_type": "DENTAL_PROCEDURE",
+      "due_date": "2024-09-02"
+    },
+    {
+      "title": "Senior wellness exam",
+      "alert_type": "ROUTINE_EXAM",
+      "due_date": "2024-08-10"
+    },
+    {
+      "title": "Skin lesion recheck",
+      "alert_type": "FOLLOW_UP",
+      "due_date": "2024-05-22"
+    }
+  ]
+}

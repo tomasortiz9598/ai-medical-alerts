@@ -1,0 +1,4 @@
+Patient: Luna (Canine)
+Vaccines: Rabies booster due on 2024-08-17. Bordetella administered 2023-08-01; recommend annual booster.
+Dental cleaning scheduled for 2024-09-02. Routine senior wellness exam every six months, last completed 2024-02-10.
+Recheck skin lesion in 3 weeks from 2024-05-01.
