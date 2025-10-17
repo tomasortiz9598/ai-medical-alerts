@@ -4,7 +4,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any, Dict, Optional
 
-from baml_client import get_client
+from baml_client.sync_client import b
 
 
 BAML_PROJECT_ROOT = Path(__file__).resolve().parent.parent / "baml"
