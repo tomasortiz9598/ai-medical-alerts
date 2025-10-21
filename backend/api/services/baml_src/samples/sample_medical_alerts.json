@@ -1,0 +1,29 @@
+[
+  {
+    "type": {
+      "id": "vaccine_expirations",
+      "name": "Vaccine expirations",
+      "description": "Vaccine expirations including seasonal boosters"
+    },
+    "event": "Rabies booster due",
+    "date": "2025-03-05"
+  },
+  {
+    "type": {
+      "id": "routine_exams",
+      "name": "Routine exams",
+      "description": "Routine exams"
+    },
+    "event": "Annual wellness check",
+    "date": "2025-09-18"
+  },
+  {
+    "type": {
+      "id": "follow_up_appointments",
+      "name": "Follow-up appointments",
+      "description": "Follow-up appointments"
+    },
+    "event": "Dental suture removal follow-up",
+    "date": "2025-01-04"
+  }
+]

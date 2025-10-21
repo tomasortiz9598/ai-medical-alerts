@@ -1,0 +1,12 @@
+Patient Name: Cooper (canine)
+Visit Date: 2024-12-10
+
+Vaccination record:
+- Rabies vaccine valid through 05 March 2025; booster must be administered before it expires.
+
+Preventive care plan:
+- Annual wellness check scheduled for 18 September 2025.
+
+Procedures and follow ups:
+- Dental procedure completed 2024-12-15 with sutures in place; removal follow-up booked for 2025-01-04.
+- Prior dental recheck from 2024-01-10 noted as completed; no further action required.

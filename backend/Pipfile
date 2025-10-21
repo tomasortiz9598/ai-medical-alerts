@@ -1,0 +1,29 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+baml-py = "*"
+pypdf = "*"
+pdf2image = "*"
+pytesseract = "*"
+uvicorn = "*"
+fastapi = "*"
+python-multipart="*"
+pydantic = "*"
+requests = "*"
+alembic = "*"
+sqlalchemy = "*"
+pydantic-settings = "*"
+minio = "*"
+fastapi_utils = "*"
+psycopg2-binary= "*"
+typing-inspect = "*"
+
+[dev-packages]
+pytest = "*"
+pre-commit = "*"
+
+[requires]
+python_version = "3.11"

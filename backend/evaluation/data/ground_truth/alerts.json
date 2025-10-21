@@ -1,0 +1,150 @@
+{
+  "adult_routine_human_record.pdf": [
+    {
+      "type": "vaccine_expirations",
+      "event": "Influenza vaccine due",
+      "date": "2025-05-01",
+      "message": "Influenza vaccine due on 2025-05-01."
+    },
+    {
+      "type": "vaccine_expirations",
+      "event": "COVID seasonal booster",
+      "date": "2025-09-15",
+      "message": "COVID seasonal booster window: 2025-09-15 to 2025-11-30."
+    },
+    {
+      "type": "upcoming_dental_procedures",
+      "event": "Dental exam",
+      "date": "2025-03-30",
+      "message": "Dental exam overdue; due by 2025-03-30."
+    },
+    {
+      "type": "routine_exams",
+      "event": "Vision exam",
+      "date": "2026-01-30",
+      "message": "Vision exam recommended by 2026-01-30."
+    }
+  ],
+  "cat_dental_followup.pdf": [
+    {
+      "type": "vaccine_expirations",
+      "event": "FVRCP due",
+      "date": "2025-08-10",
+      "message": "FVRCP due on 2025-08-10."
+    },
+    {
+      "type": "vaccine_expirations",
+      "event": "Rabies due",
+      "date": "2026-08-10",
+      "message": "Rabies due on 2026-08-10."
+    },
+    {
+      "type": "upcoming_dental_procedures",
+      "event": "Next dental cleaning consideration",
+      "date": "2026-02-01",
+      "message": "Next dental cleaning consideration in February 2026 (window)."
+    },
+    {
+      "type": "follow_up_appointments",
+      "event": "Suture check due",
+      "date": "2025-02-24",
+      "message": "Suture check due by 2025-02-24."
+    },
+    {
+      "type": "follow_up_appointments",
+      "event": "Post-op dental recheck due",
+      "date": "2025-03-14",
+      "message": "Post-op dental recheck due 2025-03-14."
+    }
+  ],
+  "dog_med_record_vaccines.pdf": [
+    {
+      "type": "vaccine_expirations",
+      "event": "Rabies vaccine expiration due",
+      "date": "2025-12-02",
+      "message": "Rabies vaccine expiration due on 2025-12-02."
+    },
+    {
+      "type": "vaccine_expirations",
+      "event": "DA2PP vaccine expiration due",
+      "date": "2025-12-02",
+      "message": "DA2PP vaccine expiration due on 2025-12-02."
+    },
+    {
+      "type": "vaccine_expirations",
+      "event": "Leptospira vaccine expiration due",
+      "date": "2025-06-02",
+      "message": "Leptospira vaccine expiration due on 2025-06-02."
+    },
+    {
+      "type": "follow_up_appointments",
+      "event": "Heartworm annual screening due",
+      "date": "2025-12-02",
+      "message": "Heartworm test annual screening due on 2025-12-02."
+    },
+    {
+      "type": "upcoming_dental_procedures",
+      "event": "Dental cleaning",
+      "date": "2026-04-02",
+      "message": "Target window 2026-04-02 to 2026-06-02."
+    }
+  ],
+  "multipage_mixed_record.pdf": [
+    {
+      "type": "vaccine_expirations",
+      "event": "DA2PP booster overdue",
+      "date": "2025-01-10",
+      "message": "DA2PP booster overdue since 2025-01-10."
+    },
+    {
+      "type": "follow_up_appointments",
+      "event": "Thyroid recheck",
+      "date": "2025-07-10",
+      "message": "Thyroid recheck due."
+    },
+    {
+      "type": "vaccine_expirations",
+      "event": "Leptospira vaccine due",
+      "date": "2025-07-10",
+      "message": "Leptospira vaccine due 2025-07-10."
+    },
+    {
+      "type": "vaccine_expirations",
+      "event": "Rabies 3-year vaccine due",
+      "date": "2026-01-10",
+      "message": "Rabies 3-year vaccine next due 2026-01-10."
+    },
+    {
+      "type": "upcoming_dental_procedures",
+      "event": "Dental cleaning window",
+      "date": "2025-08-10",
+      "message": "Dental window 2025-08-10 to 2025-10-10."
+    }
+  ],
+  "ocr_noisy_record.pdf": [
+    {
+      "type": "vaccine_expirations",
+      "event": "Rabies vaccine due",
+      "date": "2025-02-01",
+      "message": "Rabies vaccine due"
+    },
+    {
+      "type": "vaccine_expirations",
+      "event": "DA2PP vaccine overdue",
+      "date": "2024-02-01",
+      "message": "DA2PP vaccine overdue since 2024-02-01"
+    },
+    {
+      "type": "vaccine_expirations",
+      "event": "Leptospirosis vaccine due",
+      "date": "2025-08-01",
+      "message": "Lepto vaccine due"
+    },
+    {
+      "type": "follow_up_appointments",
+      "event": "Suture removal follow-up",
+      "date": "2025-02-10",
+      "message": "Follow-up for wound with suture removal"
+    }
+  ]
+}
