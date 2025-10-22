@@ -34,4 +34,4 @@ dist/
 # IDE / editor
 .idea/
 .vscode/
-.cursor/
+.cursor/*
