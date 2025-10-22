@@ -10,14 +10,8 @@ AI-powered medical record ingestion pipeline. The backend (FastAPI + PostgreSQL 
 ## Prerequisites
 - Python 3.11 and [Pipenv](https://pipenv.pypa.io/en/latest/).
 - Node.js 18+ and npm.
-- [Poppler](https://poppler.freedesktop.org/) (provides `pdftoppm` for PDF rendering).
-- [Tesseract OCR](https://tesseract-ocr.github.io/) (needed by `pytesseract`).
 - Docker & Docker Compose (optional, for running Postgres/MinIO/API together).
 
-macOS install:
-```bash
-brew install poppler tesseract
-```
 
 ## Environment configuration
 1. Copy the example file and adjust values as needed:
@@ -41,10 +35,9 @@ pipenv install --dev
 - **Docker (recommended for local dev)**:
   ```bash
   cd backend
-  docker compose up db minio
+  docker compose up --build
   ```
-  This runs PostgreSQL on `localhost:5432` and MinIO on `localhost:9000` (console `:9001`).
-- **Manual DB setup**: create the `ai_medical_alerts` database yourself and ensure credentials match `.env`.
+The API becomes available at `http://localhost:8000`, PostgreSQL at `localhost:5432`, and MinIO at `http://localhost:9000`.
 
 ### Apply database migrations
 ```bash
@@ -53,19 +46,6 @@ pipenv run alembic upgrade head
 ```
 Alembic seeds the four default event types during the first migration.
 
-### Run the API
-```bash
-cd backend
-docker compose up api
-```
-The server listens on `http://localhost:8000`. Update the frontend’s base URL in `frontend/src/api/client.ts` if you change the port.
-
-### Run with Docker Compose (API + dependencies)
-```bash
-cd backend
-docker compose up --build
-```
-The API becomes available at `http://localhost:8000`, PostgreSQL at `localhost:5432`, and MinIO at `http://localhost:9000`.
 
 ## Frontend (React + Vite)
 ```bash
@@ -79,7 +59,7 @@ The dev server runs on `http://localhost:5173` and proxies API calls to `http://
 - **Backend**: in-memory SQLite + stubbed external services allow the suite to run without Postgres or MinIO.
   ```bash
   cd backend
-  pipenv run pytest api/tests
+  pipenv run pytest 
   ```
 - **Frontend**: no automated tests are defined today.
 
